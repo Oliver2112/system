@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
-var adminprefix = '$'
+var prefix = "-"
+var adminprefix = '-'
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -19,11 +19,11 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-**__System Bot__ By: <@441584713799303183>**
+**__System Bot__ By: <@601097853514809354>**
 
 
 ╔[❖════════════❖]╗
-             Prefix = ' $ '
+             Prefix = ' - '
 ╚[❖════════════❖]╝
 
 ╔[❖════════════❖]╗
